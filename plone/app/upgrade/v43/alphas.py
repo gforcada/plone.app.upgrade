@@ -119,6 +119,7 @@ def to43alpha1(context):
 
 
 def upgradeSyndication(context):
+    return
     from zope.component import getUtility, getSiteManager
     from plone.registry.interfaces import IRegistry
     from Products.CMFCore.interfaces import ISyndicationTool
